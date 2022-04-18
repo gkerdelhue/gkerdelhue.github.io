@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <meta name="author" content="Gaétan Kerdelhué (NNE : 2192040437Z)" />
+  <title>En quoi le numérique interroge-t-il le rapport à l’œuvre et à son étude littéraire ?</title>
+  <style>
+    html {
+      line-height: 1.5;
+      font-family: -apple-system, BlinkMacSystemFont, Segoe UI,
+    sans-serif;
+      font-size: 20px;
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 1em;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, 'Lucida Console', Consolas, monospace;
+      background-color: #f0f0f0;
+      padding: .2em .4em;
+      font-size: 85%;
+      margin: 0;
+    }
+    pre {
+      margin: 1em 0;
+      background-color: #f0f0f0;
+      padding: 1em;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  
+  
+  
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<header id="title-block-header">
+<h1 class="title">En quoi le numérique interroge-t-il le rapport à l’œuvre et à son étude littéraire ?</h1>
+<p class="author">Gaétan Kerdelhué (NNE : 2192040437Z)</p>
+<p class="date">Avril 2022</p>
+</header>
+
+<p>L’opposition entre le domaine des lettres et celui des nombres est un
+lieu commun souvent débattu et remis en cause mais qui semble persister.
+Pourtant leur entrelacement paraît être définitif depuis l’apparition de
+l’informatique à la deuxième moitié du vingtième siècle. L’informatique
+permet en effet le traitement automatique de toute information grâce à
+la représentation par les nombres (<em>zéro</em> et <em>un</em> a
+minima). Les logiciels de traitement de texte ont d’ailleurs joué un
+grand rôle dans le développement de la micro-informatique auprès du
+grand public dans les années quatre-vingt. Quelques années plus tard,
+c’est l’arrivée du Web, pourtant principalement textuel à ses débuts,
+qui a, à nouveau, permis le développement des équipements et des
+infrastructures numériques. Qu’a apporté ce nouveau mode de traitement
+de l’information dans le domaine littéraire ? Quel en est l’impact pour
+la personne qui se confronte à une œuvre pour en faire l’expérience ou
+l’étudier ? Pour répondre à ces questions, nous nous intéresserons à la
+question de la matérialisation des œuvres, à leurs nouvelles dimensions
+et enfin aux nouveaux outils d’étude apparus avec le numérique.</p>
+<p>Les œuvres littéraires sont, de façon très prédominante, diffusées
+sous forme de codex en papier depuis l’Antiquité tardive. L’association
+entre la littérature et cette forme du livre papier est donc très
+puissante. La première révolution du numérique a d’ailleurs en grande
+partie épargné et même renforcé cette modalité en modernisant tous les
+outils de la chaîne de production : traitements de texte pour l’écriture
+et les révisions, publication assistée par ordinateur pour le maquettage
+etc., le produit final restant, malgré tout, très proche de celui
+produit depuis des siècles.</p>
+<p>De nombreux autres supports concurrents du papier sont
+progressivement apparus, écrans d’ordinateur à la résolution
+grandissante, liseuses utilisant l’encre électronique,
+<em>smartphones</em>, tablettes. L’année 2007 marque un tournant
+important avec la commercialisation du premier iPhone d’Apple et de la
+Kindle d’Amazon. L’iPad apparaît en 2010. La forme audio progresse
+également à l’image de la société Audible rachetée par Amazon en 2008.
+Non seulement les supports matériels se sont diversifiés mais la forme
+logicielle d’une œuvre peut également connaître de nombreuses versions
+et de nombreux formats (<code>.pdf,</code>.epub,
+<code>.mobi,</code>.html, etc.). Il n’existe donc plus un nombre limité
+d’expériences face à la matérialité d’une œuvre mais une multitude. Le
+nombre des usages s’en trouve lui-même multiplié. Lire le premier tome
+de <em>La Comédie humaine</em> entre deux stations de transport en
+commun ou en faisant ces courses est devenu possible. Il en résulte que
+l’expérience de lecture est de plus en plus personnelle et échappe, plus
+que jamais, au contrôle des créateurs.</p>
+<p>En s’éloignant de la forme papier de la littérature, on perd ses
+qualités de pérennité et d’universalité. En liant une œuvre à un support
+électronique, on doit bien souvent subir son obsolescence, peut-être
+programmée. Ainsi, on dit que les <em>smartphones</em> sont
+habituellement renouvelés tous les deux à trois ans. Les formats
+logiciels disparaissent également, comme la technologie Flash qui était
+pourtant présente sur près d’un site web sur deux à son apogée. Sur
+internet, c’est la pérennité des liens qui pose souvent problème. De
+plus, avec la domination des plateformes, le caractère interopérable du
+web a lui aussi était remis en question. Ainsi, une application
+développée pour iPhone ne sera pas compatible avec les systèmes
+d’exploitation Windows ou Android.</p>
+<p>Tous ces défauts expliquent certainement en partie la persistance du
+format livre en papier pour les œuvres littéraires alors qu’il tend à
+disparaître pour d’autres documents textuels dans les domaines
+documentaires ou administratifs. Il existe cependant de nombreuses
+dimensions qui ne peuvent pas être explorées sur support papier et qui
+n’existent qu’en numérique. Ces dimensions nous les avons listées à
+l’occasion de notre travail de classement des œuvres <em>Electronic
+Literature Collection</em> Volume 3 :</p>
+<ul>
+<li><p>La dimension multimédia. Les œuvres littéraires numériques
+peuvent facilement se rapprocher voire fusionner avec d’autres arts
+comme les arts picturaux, la musique ou la vidéo. Les possibilités
+d’intermédialité, le rapprochement d’un message avec une forme
+médiatique particulière provoquant un effet de sens, sont démultipliées.
+Dans les <em>Zones Autonomes Mutantistes (MAZ)</em> (Van Der Mäntzche,
+2014) par exemple, les textes sont affichés dans un lieu puis pris en
+photo avant d’être publiés sur le Web. Les dimensions textuelle et
+photographiques se rencontrent pour exprimer l’idée de zones propre à
+cette création.</p></li>
+<li><p>La dimension interactive. Une œuvre ne peut exister qu’en étant
+confrontée à une personne qui en fait l’expérience et se l’approprie. En
+ce sens, on peut défendre que toute création littéraire est un minimum
+interactive. Certaines créations au format papier ont d’ailleurs
+accentué cette caractéristique à l’instar de <em>Marelle</em> de Julio
+Cortàzar qui propose plusieurs ordres de chapitres possibles. Néanmoins
+avec le numérique, les possibilités d’interaction changent d’échelle. A
+titre d’exemple, la fiction interactive <em>80 days</em> (Inkle, 2014),
+inspirée du <em>Tour du monde en quatre-vingts jours</em> de Jules
+Verne, propose d’établir les étapes d’un voyage en choisissant parmi
+plus de 169 villes. Cette fiction compte plus de 750 OOO mots, plus que
+les cinq premiers tomes de <em>Harry Potter</em> réunis, mais on ne
+pourra en découvrir qu’une petite partie à chaque parcours.</p></li>
+<li><p>La dimension hypertextuelle. Avec les liens hypertextes, les
+possibilités de références intratextextuelles comme intertextuelles sont
+immenses. Techniquement, dans le cadre du langage HTML, chaque caractère
+du texte peut accueillir un lien. Ces liens sont également l’objet de
+conventions, comme le lien vers une source pour appuyer une affirmation,
+qui peuvent être respectées ou détournées pour créer de nouveaux effets
+littéraires impossibles sans le numérique.</p></li>
+<li><p>La dimension animée. Avec le numérique, la contrainte de figer un
+mot sur une page disparaît et celui peut se déplacer. Ainsi dans
+<em>First Screening</em> (BPNichol, 1984), l’animation des mots
+<em>WAVE</em> et <em>ROCK</em> dans le poème <em>ISLAND</em> permet de
+créer une correspondance entre le signifiant et le signifié impossible
+autrement.</p></li>
+<li><p>La dimension procédurale. Il s’agit d’exploiter informatiquement
+la possibilité de combiner des variables pour obtenir un très grand
+nombre de résultats. Récemment, les règles de combinaisons des variables
+ont été développées à l’aide de programmes d’intelligence artificielle
+permettant des résultats spectaculaires comme le modèle de langage GPT-3
+(OpenAI, 2020) capable de créer des textes d’une grande cohérence dans
+de nombreux styles, à la fois inédits et pourtant dépourvus
+d’originalité.</p></li>
+<li><p>La dimension sociale. Elle est possible grâce aux capacités de
+mise en réseau du numérique qui permettent la création collaborative, la
+rétroaction du lectorat (<em>feedbacks</em>) ou encore le jeu avec les
+usages des différentes plateformes. Ces créations peuvent apparaître à
+des niveaux très profonds comme la création de langages. Les émoticônes
+sont apparues sur les réseaux ARPANET et Usenet ainsi que le service
+ASCII-NET au Japon, durant les années 70 et 80.</p></li>
+<li><p>La dimension d’interopérabilité. L’internet s’est bâti sur des
+standards libres et interopérables. Dans la continuité de la culture du
+logiciel libre de nombreuses informations et services ont, eux aussi,
+suivi ce chemin. Des rapprochements inédits sont donc possibles. Ainsi
+la création <em>Lucette, gare de Clichy</em> (Françoise Chambefort,
+2017) rapproche des éléments fictionnels, photographiques et textuels,
+avec des éléments réels, les horaires de train du temps
+présent.</p></li>
+</ul>
+<p>Cette liste ne prétend pas à l’exhaustivité, de nouvelles
+possibilités pouvant apparaître avec les changements technologiques.
+Avec ces nouvelles dimensions, les œuvres ont gagné en complexité.
+Heureusement, pour l’étude des créations littéraires, de nombreuses
+nouvelles possibilités sont également ouvertes :</p>
+<ul>
+<li><p>L’ouverture des corpus. Une œuvre ne peut se comprendre sans son
+contexte et les œuvres qui l’entourent. L’arrivée en ligne de très
+nombreuses œuvres du domaine public portée par des initiatives privées
+comme Google Books et, bien sûr, publiques comme Gallica en France
+permet un accès sans précédent à ces corpus. Les œuvres couvertes par le
+droit d’auteur sont elles aussi bien plus accessibles grâce aux
+librairies en ligne, aux licences libres et aux efforts institutionnels,
+comme les accès à distance aux collections proposées par les
+bibliothèques. Cette ouverture s’étend aux différents versions et
+brouillons, facilitant l’étude génétique des œuvres.</p></li>
+<li><p>Les données paratextuelles. Sur support informatique, une œuvre
+littéraire est toujours accompagnée, dans une fenêtre ou un onglet
+proche, de données permettant de l’expliciter : définitions,
+traductions, chronologies, notices biographiques, commentaires voire
+articles savants. Notons la place importante de Wikipédia pour ces
+usages.</p></li>
+<li><p>Enfin, l’informatique propose de très nombreuses fonctionnalités
+et logiciels qui simplifient des tâches jusque-là laborieuses ou même
+inenvisageables comme la recherche d’occurrences, la transcription, la
+textométrie, l’alignement ou la présentation comparative de différentes
+versions. Parmi les exemples locaux, à portée internationale, la
+publication des manuscrits de Flaubert par l’université de Rouen
+exploite plusieurs de ces possibilités.</p></li>
+</ul>
+<p>Pour conclure, nous noterons la coexistence de ces nombreuses formes
+et outils. Le livre <em>codex</em> en papier perdure et conserve sa
+pertinence pour de nombreux usages mais à côté de lui de nombreuses
+formes nouvelles sont apparues, parfois moins pérennes et stabilisées
+mais offrant une très vaste gamme de nouvelles possibilités que ce soit
+pour la création et l’expérience des œuvres que pour leur étude.</p>
+</body>
+</html>
